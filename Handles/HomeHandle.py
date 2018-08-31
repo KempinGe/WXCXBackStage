@@ -6,9 +6,16 @@ from tornado.web import RequestHandler
 from Handles.BaseHandle import BaseHandler
 
 
+class GoodsList(BaseHandler):
+	def get(self):
+		pass
+
+	def post(self):
+		pass
+
+
 
 class MainHandler(BaseHandler):
-
 	def get(self):
 		if self.current_user:
 			self.write('<html><body><form action="/" method="post">'
@@ -20,7 +27,6 @@ class MainHandler(BaseHandler):
 					   '<input type="text" name="message">'
 					   '<input type="submit" value="清除cookie" >'
 					   '</form></body></html>')
-
 	def post(self):
 		if self.current_user:
 			msg = self.get_argument('message')
