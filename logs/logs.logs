@@ -1,3 +1,35 @@
-[D 180902 14:49:14 selector_events:65] Using selector: KqueueSelector
-[I 180902 14:53:58 web:2162] 200 GET /Home/GoodsList (127.0.0.1) 0.85ms
-[W 180902 14:53:58 web:2162] 404 GET /favicon.ico (127.0.0.1) 20.41ms
+[D 180902 20:07:37 selector_events:65] Using selector: KqueueSelector
+[W 180902 20:07:43 web:2162] 404 GET /Assets/banner1 (::1) 1.61ms
+[W 180902 20:07:45 web:2162] 404 GET /Assets/banner1 (::1) 0.44ms
+[W 180902 20:08:02 web:2162] 404 GET /Assets/banner1.jpg (::1) 0.64ms
+[W 180902 20:08:04 web:2162] 404 GET /Assets/banner1.jpg (::1) 0.65ms
+[I 180902 20:09:00 web:2162] 200 POST /Home/BannerList (::1) 0.67ms
+[W 180902 20:09:00 web:2162] 404 GET /Assets/banner1 (::1) 0.60ms
+[W 180902 20:09:00 web:2162] 404 GET /Assets/banner2 (::1) 0.53ms
+[W 180902 20:09:00 web:2162] 404 GET /Assets/banner3 (::1) 0.52ms
+[W 180902 20:09:00 web:2162] 404 GET /Assets/banner4 (::1) 0.55ms
+[W 180902 20:09:00 web:2162] 404 GET /Assets/banner5 (::1) 0.51ms
+[I 180902 20:09:00 web:2162] 200 POST /Home/GoodsList (::1) 1.38ms
+[W 180902 20:10:04 web:2162] 404 GET /Assets/Banner/banner1.jpg (::1) 0.52ms
+[W 180902 20:10:30 web:2162] 404 GET /Assets/Banner/banner1.jpg (::1) 0.40ms
+[D 180902 20:11:11 selector_events:65] Using selector: KqueueSelector
+[W 180902 20:11:14 web:2162] 404 GET /Assets/Banner/banner1.jpg (::1) 1.94ms
+[W 180902 20:11:16 web:2162] 404 GET /Assets/Banner/banner1.jpg (::1) 0.44ms
+[W 180902 20:20:41 web:2162] 404 GET /BackStage/Assets/banner1.jpg (::1) 0.71ms
+[D 180902 20:24:39 selector_events:65] Using selector: KqueueSelector
+[I 180902 20:24:50 web:2162] 200 POST /Home/BannerList (::1) 0.90ms
+[I 180902 20:24:51 web:2162] 200 POST /Home/GoodsList (::1) 1.51ms
+[I 180902 20:25:46 web:2162] 200 POST /Home/BannerList (::1) 0.52ms
+[I 180902 20:25:46 web:2162] 200 POST /Home/GoodsList (::1) 2.14ms
+[D 180902 20:29:47 selector_events:65] Using selector: KqueueSelector
+[I 180902 20:30:07 web:2162] 200 POST /Home/BannerList (::1) 3.60ms
+[I 180902 20:30:08 web:2162] 200 POST /Home/GoodsList (::1) 1.29ms
+[I 180902 20:31:27 web:2162] 200 POST /Home/BannerList (::1) 0.46ms
+[I 180902 20:31:27 web:2162] 200 POST /Home/GoodsList (::1) 1.32ms
+[D 180902 20:33:58 selector_events:65] Using selector: KqueueSelector
+[I 180902 20:34:38 web:2162] 200 POST /Home/BannerList (::1) 2.15ms
+[I 180902 20:34:38 web:2162] 200 POST /Home/GoodsList (::1) 1.39ms
+[I 180902 20:35:40 autoreload:199] /Users/imac/Documents/BackStage/Handles/HomeHandle.py modified; restarting server
+[D 180902 20:35:41 selector_events:65] Using selector: KqueueSelector
+[I 180902 20:35:53 web:2162] 200 POST /Home/BannerList (::1) 0.89ms
+[I 180902 20:35:53 web:2162] 200 POST /Home/GoodsList (::1) 1.37ms

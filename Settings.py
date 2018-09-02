@@ -15,7 +15,7 @@ APP_SETTINGS = {
     "static_path": STATIC_PATH,
     'debug' : True,
     "cookie_secret": "PQvw9USaSwWuPNrs6m6x/MsurHFz6UjGrqOXeK4GAoU=",
-    "xsrf_cookies": True,
+    "xsrf_cookies": False,
 }
 
 #数据库设置
