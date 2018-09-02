@@ -8,7 +8,7 @@ from Handles.BaseHandle import BaseHandler
 
 class GoodsList(BaseHandler):
 	def get(self):
-		pass
+		self.write('hellow world')
 
 	def post(self):
 		pass

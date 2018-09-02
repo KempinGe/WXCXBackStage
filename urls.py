@@ -9,7 +9,6 @@ from tornado.web import StaticFileHandler
 urls = [
 	(r"/",MainHandler),
 	(r"/Authen/a",AuthenHandle),
-	(r"/Home/GoodsList",GoodsList),
-
+	(r"/Home/GoodsList",GoodsList)
 	# (r'/.png',StaticFileHandler, dict(path=settings['static_path']))
 	]
