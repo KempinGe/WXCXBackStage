@@ -43,3 +43,7 @@
 # tasks = [wget(host) for host in ['www.sina.com.cn', 'www.sohu.com', 'www.163.com']]
 # loop.run_until_complete(asyncio.wait(tasks))
 # loop.close()
+# print( lambda f: (lambda g: g(g))(lambda h: lambda n: f(h(h))(n))(10))
+
+# fact = lambda h:\
+#     lambda n: 1 if n < 2 else n * h(h)(n-1)

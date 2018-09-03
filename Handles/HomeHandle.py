@@ -8,7 +8,7 @@ import logging
 from Settings import STATIC_PATH
 
 
-class BannerListHandler(StaticFileBaseHandler):
+class BannerListHandler(BaseHandler):
     def post(self,*args, **kwargs):
         arr = [{'Id': 1 , 'picUrl':  '/images/Banner/banner1.jpg'},
                {'Id': 5 , 'picUrl' : '/images/Banner/banner2.jpg'},
@@ -18,23 +18,18 @@ class BannerListHandler(StaticFileBaseHandler):
         self.write(dict(code=RET.OK, data=arr))
 
 
+class CategorieListHandler(BaseHandler):
+	def post(self,*args, **kwargs):
+		arr = [{'id': 1 ,'name':'分类一', 'activeCategoryId': 1},
+               {'id': 2 ,'name':'分类二', 'activeCategoryId': 5},
+               {'id': 3 ,'name':'分类三', 'activeCategoryId': 1},
+               {'id': 4 ,'name':'分类四', 'activeCategoryId': 6},
+               {'id': 5 ,'name':'分类五', 'activeCategoryId': 5}]
+		self.write(dict(code=RET.OK, data=arr))
 
 
 
 class GoodsListHandler(BaseHandler):
-
-
-    def get(self, *args, **kwargs):
-        logging.log(level=0,msg=args)
-        sql = 'SELECT goodsId,goodsName,goodsSmallImg,goodsMinPrice,goodsOriginPrice,goodsCount,goodsInStore FROM xh_goods'
-        try:
-            result = self.db.query(sql)
-        except Exception as e:
-            logging.error(e)
-            self.write(dict(code=RET.DBERR, errMessage="数据库查询失败"))
-
-        self.write(dict(code=RET.OK,data=result))
-
     def post(self,*args, **kwargs):
         sql = 'SELECT goodsId,goodsName,goodsSmallImg,goodsMinPrice,goodsOriginPrice,goodsCount,goodsInStore FROM xh_goods'
         try:
@@ -42,9 +37,19 @@ class GoodsListHandler(BaseHandler):
         except Exception as e:
             logging.error(e)
             self.write(dict(code=RET.DBERR, errMessage="数据库查询失败"))
-        self.write(dict(code=RET.OK, data=result))
+        self.write(dict(code=RET.OK, data=result))  
 
 
+
+class NoticeListHandler(BaseHandler):
+    def post(self,*args, **kwargs):
+        arr = {'dataList':[{ 'id':1,'title': "通知(0)(1)"},
+                           {'id': 2, 'title': "通知(0)(2)"},
+                           {'id': 3, 'title': "通知(0)(3)"},
+                           ]}
+
+
+        self.write(dict(code=RET.OK, data=arr))
 
 
 class MainHandler(BaseHandler):

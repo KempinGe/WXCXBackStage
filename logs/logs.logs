@@ -33,3 +33,204 @@
 [D 180902 20:35:41 selector_events:65] Using selector: KqueueSelector
 [I 180902 20:35:53 web:2162] 200 POST /Home/BannerList (::1) 0.89ms
 [I 180902 20:35:53 web:2162] 200 POST /Home/GoodsList (::1) 1.37ms
+[D 180903 15:09:20 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:09:37 web:2162] 200 POST /Home/BannerList (::1) 67.86ms
+[I 180903 15:09:37 web:2162] 200 POST /Home/GoodsList (::1) 24.11ms
+[I 180903 15:11:43 web:2162] 200 POST /Home/BannerList (::1) 1.16ms
+[I 180903 15:11:44 web:2162] 200 POST /Home/GoodsList (::1) 1.40ms
+[D 180903 15:19:50 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:21:39 autoreload:199] /Users/imac/Documents/BackStage/Handles/HomeHandle.py modified; restarting server
+[D 180903 15:22:16 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:23:14 web:2162] 200 POST /Home/BannerList (::1) 1.19ms
+[E 180903 15:23:14 web:1670] Uncaught exception GET /Home/CotegoriList (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8008', method='GET', uri='/Home/CotegoriList', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/imac/Documents/BackStage/Handles/BaseHandle.py", line 19, in prepare
+        self.json_args = json.loads(self.request.body)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[E 180903 15:23:14 web:2162] 500 GET /Home/CotegoriList (::1) 86.05ms
+[I 180903 15:23:14 web:2162] 200 POST /Home/GoodsList (::1) 1.60ms
+[I 180903 15:24:27 web:2162] 200 POST /Home/BannerList (::1) 0.69ms
+[I 180903 15:24:27 web:2162] 200 POST /Home/CotegoriList (::1) 0.57ms
+[I 180903 15:24:27 web:2162] 200 POST /Home/GoodsList (::1) 1.49ms
+[I 180903 15:26:41 web:2162] 200 POST /Home/BannerList (::1) 0.48ms
+[I 180903 15:26:41 web:2162] 200 POST /Home/CotegoriList (::1) 0.46ms
+[I 180903 15:26:41 web:2162] 200 POST /Home/GoodsList (::1) 1.43ms
+[D 180903 15:27:31 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:27:39 web:2162] 200 POST /Home/BannerList (::1) 1.58ms
+[I 180903 15:27:39 web:2162] 200 POST /Home/CotegoriList (::1) 0.99ms
+[I 180903 15:27:39 web:2162] 200 POST /Home/GoodsList (::1) 1.54ms
+[D 180903 15:28:44 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:28:52 web:2162] 200 POST /Home/BannerList (::1) 1.30ms
+[I 180903 15:28:52 web:2162] 200 POST /Home/CotegoriList (::1) 0.56ms
+[I 180903 15:28:52 web:2162] 200 POST /Home/GoodsList (::1) 1.61ms
+[I 180903 15:28:54 web:2162] 200 POST /Home/GoodsList (::1) 1.41ms
+[I 180903 15:28:55 web:2162] 200 POST /Home/GoodsList (::1) 2.97ms
+[I 180903 15:28:56 web:2162] 200 POST /Home/GoodsList (::1) 1.41ms
+[I 180903 15:28:59 web:2162] 200 POST /Home/GoodsList (::1) 1.40ms
+[I 180903 15:28:59 web:2162] 200 POST /Home/GoodsList (::1) 2.08ms
+[I 180903 15:29:00 web:2162] 200 POST /Home/GoodsList (::1) 1.45ms
+[I 180903 15:29:01 web:2162] 200 POST /Home/GoodsList (::1) 1.37ms
+[I 180903 15:29:01 web:2162] 200 POST /Home/GoodsList (::1) 1.68ms
+[I 180903 15:29:16 web:2162] 200 POST /Home/GoodsList (::1) 1.44ms
+[I 180903 15:29:19 web:2162] 200 POST /Home/GoodsList (::1) 1.45ms
+[I 180903 15:29:21 web:2162] 200 POST /Home/GoodsList (::1) 1.36ms
+[I 180903 15:29:22 web:2162] 200 POST /Home/GoodsList (::1) 1.50ms
+[I 180903 15:29:51 web:2162] 200 POST /Home/GoodsList (::1) 1.56ms
+[I 180903 15:31:05 autoreload:199] /Users/imac/Documents/BackStage/Handles/HomeHandle.py modified; restarting server
+[D 180903 15:31:06 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:33:52 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:37:19 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:40:47 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:41:20 web:2162] 200 POST /Home/BannerList (::1) 1.21ms
+[I 180903 15:41:20 web:2162] 200 POST /Home/CotegoriList (::1) 0.46ms
+[E 180903 15:41:20 web:1670] Uncaught exception GET /Home/CouponList?type= (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8008', method='GET', uri='/Home/CouponList?type=', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tornado/web.py", line 1569, in _execute
+        result = self.prepare()
+      File "/Users/imac/Documents/BackStage/Handles/BaseHandle.py", line 19, in prepare
+        self.json_args = json.loads(self.request.body)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[E 180903 15:41:20 web:2162] 500 GET /Home/CouponList?type= (::1) 41.78ms
+[I 180903 15:41:20 web:2162] 200 POST /Home/GoodsList (::1) 1.86ms
+[I 180903 15:42:02 web:2162] 200 POST /Home/BannerList (::1) 0.58ms
+[I 180903 15:42:02 web:2162] 200 POST /Home/CotegoriList (::1) 0.47ms
+[I 180903 15:42:02 web:2162] 200 POST /Home/CouponList (::1) 0.93ms
+[I 180903 15:42:02 web:2162] 200 POST /Home/GoodsList (::1) 16.33ms
+[I 180903 15:43:21 autoreload:199] /Users/imac/Documents/BackStage/Handles/CouponHandlers.py modified; restarting server
+[D 180903 15:43:22 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:44:25 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:44:32 web:2162] 200 POST /Home/BannerList (::1) 1.50ms
+[I 180903 15:44:32 web:2162] 200 POST /Home/CotegoriList (::1) 0.59ms
+[I 180903 15:44:32 web:2162] 200 POST /Home/CouponList (::1) 0.48ms
+[I 180903 15:44:32 web:2162] 200 POST /Home/GoodsList (::1) 1.61ms
+[D 180903 15:49:02 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:50:43 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:51:47 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:53:34 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:54:46 autoreload:199] /Users/imac/Documents/BackStage/Handles/HomeHandle.py modified; restarting server
+[D 180903 15:54:46 selector_events:65] Using selector: KqueueSelector
+[D 180903 15:55:29 selector_events:65] Using selector: KqueueSelector
+[I 180903 15:55:36 web:2162] 200 POST /Home/BannerList (::1) 1.74ms
+[I 180903 15:55:36 web:2162] 200 POST /Home/CotegoriList (::1) 0.69ms
+[I 180903 15:55:36 web:2162] 200 POST /Home/CouponList (::1) 0.67ms
+[I 180903 15:55:36 web:2162] 200 POST /Home/GoodsList (::1) 1.89ms
+[I 180903 15:56:18 web:2162] 200 POST /Home/BannerList (::1) 0.88ms
+[I 180903 15:56:18 web:2162] 200 POST /Home/CotegoriList (::1) 0.49ms
+[I 180903 15:56:18 web:2162] 200 POST /Home/CouponList (::1) 0.64ms
+[I 180903 15:56:18 web:2162] 200 POST /Home/GoodsList (::1) 1.16ms
+[I 180903 15:58:09 web:2162] 200 POST /Home/BannerList (::1) 0.51ms
+[I 180903 15:58:09 web:2162] 200 POST /Home/CotegoriList (::1) 0.61ms
+[I 180903 15:58:09 web:2162] 200 POST /Home/CouponList (::1) 0.63ms
+[I 180903 15:58:09 web:2162] 200 POST /Home/NoticeList (::1) 0.68ms
+[I 180903 15:58:09 web:2162] 200 POST /Home/GoodsList (::1) 1.36ms
+[D 180903 16:01:16 selector_events:65] Using selector: KqueueSelector
+[I 180903 16:01:23 web:2162] 200 POST /Home/BannerList (::1) 0.99ms
+[I 180903 16:01:23 web:2162] 200 POST /Home/CotegoriList (::1) 0.63ms
+[I 180903 16:01:23 web:2162] 200 POST /Home/CouponList (::1) 0.55ms
+[I 180903 16:01:23 web:2162] 200 POST /Home/NoticeList (::1) 0.47ms
+[I 180903 16:01:23 web:2162] 200 POST /Home/GoodsList (::1) 1.38ms
+[I 180903 16:02:15 web:2162] 200 POST /Home/BannerList (::1) 0.60ms
+[I 180903 16:02:15 web:2162] 200 POST /Home/CotegoriList (::1) 0.54ms
+[I 180903 16:02:15 web:2162] 200 POST /Home/CouponList (::1) 0.48ms
+[I 180903 16:02:15 web:2162] 200 POST /Home/NoticeList (::1) 0.47ms
+[I 180903 16:02:15 web:2162] 200 POST /Home/GoodsList (::1) 1.73ms
+[I 180903 16:03:19 web:2162] 200 POST /Home/GoodsList (::1) 1.61ms
+[I 180903 16:03:20 web:2162] 200 POST /Home/GoodsList (::1) 1.73ms
+[I 180903 16:03:21 web:2162] 200 POST /Home/GoodsList (::1) 1.65ms
+[I 180903 16:03:22 web:2162] 200 POST /Home/GoodsList (::1) 1.59ms
+[I 180903 16:03:24 web:2162] 200 POST /Home/GoodsList (::1) 1.54ms
+[I 180903 16:03:25 web:2162] 200 POST /Home/GoodsList (::1) 1.73ms
+[I 180903 16:03:26 web:2162] 200 POST /Home/GoodsList (::1) 3.52ms
+[I 180903 16:03:26 web:2162] 200 POST /Home/GoodsList (::1) 1.64ms
+[I 180903 16:03:27 web:2162] 200 POST /Home/GoodsList (::1) 1.74ms
+[I 180903 16:03:29 web:2162] 200 POST /Home/GoodsList (::1) 1.51ms
+[I 180903 16:07:30 autoreload:199] /Users/imac/Documents/BackStage/Handles/HomeHandle.py modified; restarting server
+[D 180903 16:07:31 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:12:19 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:14:34 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:16:24 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:16:57 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:17:18 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:18:17 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:19:05 selector_events:65] Using selector: KqueueSelector
+[D 180903 16:21:51 selector_events:65] Using selector: KqueueSelector
+[I 180903 16:23:20 autoreload:199] /Users/imac/Documents/BackStage/Handles/GoodsHandlers.py modified; restarting server
+[D 180903 16:24:50 selector_events:65] Using selector: KqueueSelector
+[I 180903 16:25:05 autoreload:199] /Users/imac/Documents/BackStage/Handles/GoodsHandlers.py modified; restarting server
+[D 180903 16:25:05 selector_events:65] Using selector: KqueueSelector
+[I 180903 16:49:42 web:2162] 200 POST /Home/BannerList (::1) 1.10ms
+[I 180903 16:49:42 web:2162] 200 POST /Home/CotegoriList (::1) 0.56ms
+[I 180903 16:49:42 web:2162] 200 POST /Home/CouponList (::1) 0.73ms
+[I 180903 16:49:42 web:2162] 200 POST /Home/NoticeList (::1) 0.78ms
+[I 180903 16:49:43 web:2162] 200 POST /Home/GoodsList (::1) 1.40ms
+[I 180903 16:49:44 web:2162] 200 POST /Goods/Detai (::1) 0.60ms
+[I 180903 16:51:26 web:2162] 200 POST /Home/BannerList (::1) 0.60ms
+[I 180903 16:51:26 web:2162] 200 POST /Home/CotegoriList (::1) 0.76ms
+[I 180903 16:51:26 web:2162] 200 POST /Home/CouponList (::1) 0.63ms
+[I 180903 16:51:26 web:2162] 200 POST /Home/NoticeList (::1) 0.46ms
+[I 180903 16:51:26 web:2162] 200 POST /Home/GoodsList (::1) 1.91ms
+[I 180903 16:51:27 web:2162] 200 POST /Goods/Detai (::1) 0.61ms
+[I 180903 16:52:19 web:2162] 200 POST /Goods/Detai (::1) 0.52ms
+[I 180903 16:52:43 web:2162] 200 POST /Goods/Detai (::1) 0.53ms
+[D 180903 16:53:22 selector_events:65] Using selector: KqueueSelector
+[I 180903 16:56:16 web:2162] 200 POST /Goods/Detai (::1) 0.93ms
+[I 180903 17:00:09 web:2162] 200 POST /Goods/Detai (::1) 0.67ms
+[I 180903 17:00:42 web:2162] 200 POST /Home/NoticeList (::1) 0.55ms
+[I 180903 17:00:42 web:2162] 200 POST /Home/BannerList (::1) 0.44ms
+[I 180903 17:00:42 web:2162] 200 POST /Home/CotegoriList (::1) 0.66ms
+[I 180903 17:00:42 web:2162] 200 POST /Home/CouponList (::1) 0.48ms
+[I 180903 17:00:42 web:2162] 200 POST /Home/GoodsList (::1) 1.88ms
+[I 180903 17:00:43 web:2162] 200 POST /Goods/Detai (::1) 0.51ms
+[D 180903 17:01:45 selector_events:65] Using selector: KqueueSelector
+[D 180903 17:02:00 selector_events:65] Using selector: KqueueSelector
+[D 180903 17:03:04 selector_events:65] Using selector: KqueueSelector
+[D 180903 17:03:40 selector_events:65] Using selector: KqueueSelector
+[I 180903 17:06:53 web:2162] 200 POST /Goods/Detai (::1) 1.31ms
+[I 180903 17:07:41 autoreload:199] /Users/imac/Documents/BackStage/Handles/GoodsHandlers.py modified; restarting server
+[D 180903 17:07:41 selector_events:65] Using selector: KqueueSelector
+[I 180903 17:07:45 web:2162] 200 POST /Goods/Detai (::1) 1.19ms
+[I 180903 17:07:54 web:2162] 200 POST /Goods/Detai (::1) 0.58ms
+[I 180903 17:09:00 web:2162] 200 POST /Goods/Detai (::1) 0.54ms
+[D 180903 19:40:23 selector_events:65] Using selector: KqueueSelector
+[I 180903 19:40:32 web:2162] 200 POST /Home/BannerList (::1) 2.55ms
+[I 180903 19:40:32 web:2162] 200 POST /Home/CotegoriList (::1) 0.63ms
+[I 180903 19:40:32 web:2162] 200 POST /Home/CouponList (::1) 0.92ms
+[I 180903 19:40:32 web:2162] 200 POST /Home/NoticeList (::1) 0.51ms
+[I 180903 19:40:32 web:2162] 200 POST /Home/GoodsList (::1) 1.44ms
+[I 180903 19:40:32 web:2162] 200 POST /Goods/Detai (::1) 0.81ms
+[I 180903 19:47:41 web:2162] 200 POST /Home/BannerList (::1) 0.64ms
+[I 180903 19:47:41 web:2162] 200 POST /Home/CotegoriList (::1) 0.53ms
+[I 180903 19:47:41 web:2162] 200 POST /Home/CouponList (::1) 0.61ms
+[I 180903 19:47:41 web:2162] 200 POST /Home/NoticeList (::1) 0.62ms
+[I 180903 19:47:41 web:2162] 200 POST /Home/GoodsList (::1) 1.56ms
+[I 180903 19:47:42 web:2162] 200 POST /Goods/Detai (::1) 0.55ms
+[I 180903 19:47:52 web:2162] 200 POST /Goods/Detai (::1) 0.62ms
+[I 180903 19:47:56 web:2162] 200 POST /Goods/Detai (::1) 0.55ms
+[I 180903 19:48:08 web:2162] 200 POST /Home/BannerList (::1) 0.67ms
+[I 180903 19:48:08 web:2162] 200 POST /Home/CotegoriList (::1) 0.49ms
+[I 180903 19:48:08 web:2162] 200 POST /Home/CouponList (::1) 0.50ms
+[I 180903 19:48:08 web:2162] 200 POST /Home/NoticeList (::1) 0.50ms
+[I 180903 19:48:08 web:2162] 200 POST /Home/GoodsList (::1) 1.39ms
+[I 180903 19:48:10 web:2162] 200 POST /Goods/Detai (::1) 0.58ms
+[I 180903 19:48:39 web:2162] 200 POST /Home/BannerList (::1) 0.52ms
+[I 180903 19:48:39 web:2162] 200 POST /Home/CotegoriList (::1) 0.53ms
+[I 180903 19:48:39 web:2162] 200 POST /Home/CouponList (::1) 0.49ms
+[I 180903 19:48:39 web:2162] 200 POST /Home/NoticeList (::1) 0.49ms
+[I 180903 19:48:39 web:2162] 200 POST /Home/GoodsList (::1) 3.03ms
+[I 180903 19:48:47 web:2162] 200 POST /Goods/Detai (::1) 0.60ms
