@@ -16,6 +16,6 @@ urls = [
 	(r"/Home/CotegoriList",CategorieListHandler),
     (r"/Home/CouponList",CouponHandler),
     (r"/Home/NoticeList",NoticeListHandler),
-    (r"/Goods/Detai",GoodsDetailHandler)
+    (r"/Goods/Detail",GoodsDetailHandler)
 	# (r'/.png',StaticFileHandler, dict(path=settings['static_path']))
 	]

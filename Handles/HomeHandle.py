@@ -31,7 +31,7 @@ class CategorieListHandler(BaseHandler):
 
 class GoodsListHandler(BaseHandler):
     def post(self,*args, **kwargs):
-        sql = 'SELECT goodsId,goodsName,goodsSmallImg,goodsMinPrice,goodsOriginPrice,goodsCount,goodsInStore FROM xh_goods'
+        sql = 'SELECT goodsId,goodsName,goodsSmallImg,goodsMinPrice,goodsOriginPrice FROM xh_goods'
         try:
             result = self.db.query(sql)
         except Exception as e:
